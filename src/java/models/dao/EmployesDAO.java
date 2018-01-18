@@ -7,8 +7,8 @@ import java.util.List;
 
 public interface EmployesDAO {
     void add(Employes employe) throws SQLException;
-    List <Employes> getAll();
-    Employes getByID();
-    void update(Employes employe);
-    void remove (Employes employe);
+    List <Employes> getAll() throws SQLException;
+    Employes getByID(int id) throws SQLException;
+    void update(Employes employe) throws SQLException;
+    void remove (Employes employe) throws SQLException;
 }
