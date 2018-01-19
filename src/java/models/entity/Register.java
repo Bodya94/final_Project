@@ -55,7 +55,6 @@ public class Register {
     @Override
     public String toString() {
         return "Register{" +
-                "id=" + id +
                 ", date='" + date + '\'' +
                 ", customerId=" + customerId +
                 ", employeId=" + employeId +
